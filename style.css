@@ -1,0 +1,758 @@
+
+
+.app{
+
+    margin-top: 10px;
+}
+.header{
+ height: 55px;
+ background-image: linear-gradient(0, rgb(231 74 77), rgb(225 97 71));   
+}
+.navbar{
+    display: flex;
+   justify-content: space-between;
+ 
+}
+.header_nav{
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 9px;
+}
+.header_list{
+margin: 0 8px;
+
+
+}
+.header_list,.header_list_link
+{
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+   padding: 3px;
+   
+}
+.header_list:hover,.header_list_link:hover{
+    color: rgba(255,255,255, 0.7);
+    cursor: pointer;
+}
+/*  */
+.thongbao{
+    position: absolute;
+  border: 1px solid silver;
+    width: 180px;
+    right: 0;
+    margin-top: 10px;
+    cursor: default;
+    user-select: none;
+    background-color: aliceblue;
+    transform-origin: top left;
+    animation: hieuungthongbao ease-in 0.27s;
+    display: none;
+    margin-right: 435px;
+}
+.thongbao::before{
+    content: "";
+    border: 20px solid;
+    border-color: transparent transparent white transparent;
+    position: absolute;
+    left:66px;
+    top: -30px;
+}
+.thongbao::after{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 42px;
+    width: 100px;
+    top: -20px;
+    height: 20px;
+    
+}
+@keyframes hieuungthongbao {
+    from{
+        opacity: (0);
+     transform: scale(0);   
+    }
+   to{
+    opacity: (1);
+        transform: scale(1);   
+       }
+}
+.headerthongbao{
+    height: 40px;
+    background-color: white;
+}
+.headerthongbao h3{
+    color: rgb(172, 155, 155);
+    margin: 0 0 0 12px;
+    font-weight: 400;
+    font-size: 20px ;
+    line-height: 40px;
+    
+}
+.thongbaosanpham{
+    padding-left: 0;
+}
+.thongbaoimg{
+    width: 49px;
+    object-fit: contain;
+}
+.thongbaoitem,.thongbaolink{
+    display: flex;
+}
+.thongbaoitem:hover{
+    background-color: #cac4c3;
+}
+.thongbaolink{
+    padding: 12px;
+    width: 100%;
+    text-decoration: none;
+    
+
+}
+.hoverthongbao{
+    background-color:rgba(216, 74, 46, 0.130) ;
+}
+.thongbaolist{
+    margin-left: 12px;
+}
+.thongbaonoidung{
+    display: block;
+    font-size: 17px;
+    color: black;
+    font-weight: 400;
+    line-height: 10px;
+}
+
+
+.footerxemtatca{
+   display: flex; 
+}
+.xemtatca{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    padding: 8px;
+    margin: auto;
+    text-align: center; 
+}
+.hoverhieuung:hover .thongbao {
+    display: block;}
+    /* lớp7 */
+    .thongbao7{
+        position: absolute;
+      border: 1px solid silver;
+        width: 180px;
+        right: 0;
+        margin-top: 10px;
+        cursor: default;
+        user-select: none;
+        background-color: aliceblue;
+        transform-origin: top left;
+        animation: hieuungthongbao ease-in 0.27s;
+        display: none;
+        margin-right: 357px;
+    }
+    .thongbao7::before{
+        content: "";
+        border: 20px solid;
+        border-color: transparent transparent white transparent;
+        position: absolute;
+        left:66px;
+        top: -30px;
+    }
+    .thongbao7::after{
+        content: "";
+        display: block;
+        position: absolute;
+        left: 42px;
+        width: 100px;
+        top: -20px;
+        height: 20px;
+        
+    }
+    @keyframes hieuungthongbao {
+        from{
+            opacity: (0);
+         transform: scale(0);   
+        }
+       to{
+        opacity: (1);
+            transform: scale(1);   
+           }
+    }
+    .headerthongbao7{
+        height: 40px;
+        background-color: white;
+    }
+    .headerthongbao7 h3{
+        color: rgb(172, 155, 155);
+        margin: 0 0 0 12px;
+        font-weight: 400;
+        font-size: 20px ;
+        line-height: 40px;
+        
+    }
+    .thongbaosanpham7{
+        padding-left: 0;
+    }
+    .thongbaoimg7{
+        width: 49px;
+        object-fit: contain;
+    }
+    .thongbaoitem7,.thongbaolink7{
+        display: flex;
+    }
+    .thongbaoitem7:hover{
+        background-color: #cac4c3;
+    }
+    .thongbaolink7{
+        padding: 12px;
+        width: 100%;
+        text-decoration: none;
+        
+    
+    }
+    .hoverthongbao7{
+        background-color:rgba(216, 74, 46, 0.130) ;
+    }
+    .thongbaolist7{
+        margin-left: 12px;
+    }
+    .thongbaonoidung7{
+        display: block;
+        font-size: 17px;
+        color: black;
+        font-weight: 400;
+        line-height: 10px;
+    }
+    
+    
+    .footerxemtatca7{
+       display: flex; 
+    }
+    .xemtatca7{
+        text-decoration: none;
+        color: black;
+        width: 100%;
+        padding: 8px;
+        margin: auto;
+        text-align: center; 
+    }
+    .hoverhieuung7:hover .thongbao7 {
+        display: block;}
+        
+        .navbar{
+            display: flex;
+           justify-content: space-between;
+         
+        }
+        .header_nav{
+            display: flex;
+            list-style: none;
+            padding-left: 0px;
+            margin-top: 5px;
+        }
+        .header_list7{
+        margin: 0 8px;
+        
+        
+        }
+        .header_list7,.header_list_link7
+        {
+            display: inline-block;
+            font-size: 20px;
+            color: white;
+            text-decoration: none;
+           padding: 3px;
+           
+        }
+        .header_list7:hover,.header_list_link7:hover{
+            color: rgba(255,255,255, 0.7);
+            cursor: pointer;
+        }
+
+        /* lớp 8 */
+        .header_nav8{
+            display: flex;
+            list-style: none;
+            padding-left: 0px;
+            margin-top: 5px;
+        }
+        .header_list8{
+        margin: 0 8px;
+        
+        
+        }
+        .header_list8,.header_list_link8
+        {
+            display: inline-block;
+            font-size: 20px;
+            color: white;
+            text-decoration: none;
+           padding: 3px;
+           
+        }
+        .header_list8:hover,.header_list_link8:hover{
+            color: rgba(255,255,255, 0.7);
+            cursor: pointer;
+        }
+        /*  */
+        .thongbao8{
+            position: absolute;
+          border: 1px solid silver;
+            width: 180px;
+            right: 0;
+            margin-top: 10px;
+            cursor: default;
+            user-select: none;
+            background-color: aliceblue;
+            transform-origin: top left;
+            animation: hieuungthongbao ease-in 0.27s;
+            display: none;
+           
+        }
+        .thongbao8::before{
+            content: "";
+            border: 20px solid;
+            border-color: transparent transparent white transparent;
+            position: absolute;
+            left:66px;
+            top: -30px;
+        }
+        .thongbao8::after{
+            content: "";
+            display: block;
+            position: absolute;
+            left: 42px;
+            width: 100px;
+            top: -20px;
+            height: 20px;
+            
+        }
+        @keyframes hieuungthongbao {
+            from{
+                opacity: (0);
+             transform: scale(0);   
+            }
+           to{
+            opacity: (1);
+                transform: scale(1);   
+               }
+        }
+        .headerthongbao8{
+            height: 40px;
+            background-color: white;
+        }
+        .headerthongbao8 h3{
+            color: rgb(172, 155, 155);
+            margin: 0 0 0 12px;
+            font-weight: 400;
+            font-size: 20px ;
+            line-height: 40px;
+            
+        }
+        .thongbaosanpham8{
+            padding-left: 0;
+        }
+        .thongbaoimg8{
+            width: 49px;
+            object-fit: contain;
+        }
+        .thongbaoitem8,.thongbaolink8{
+            display: flex;
+        }
+        .thongbaoitem8:hover{
+            background-color: #cac4c3;
+        }
+        .thongbaolink8{
+            padding: 12px;
+            width: 100%;
+            text-decoration: none;
+            
+        
+        }
+        .hoverthongbao8{
+            background-color:rgba(216, 74, 46, 0.130) ;
+        }
+        .thongbaolist8{
+            margin-left: 12px;
+        }
+        .thongbaonoidung8{
+            display: block;
+            font-size: 17px;
+            color: black;
+            font-weight: 400;
+            line-height: 10px;
+        }
+        
+        
+        .footerxemtatca8{
+           display: flex; 
+        }
+         
+        
+        .hoverhieuung8:hover .thongbao8 {
+            display: block}
+            /*  */
+          .vitri8{
+            margin-right: 286px;
+          
+    }
+    .vitri9{
+        margin-right: 205px;
+    }
+    .vitri10{
+        margin-right: 130px;
+    }
+    .vitri11{
+        margin-right: 105px;
+    }
+    .vitri12{
+        margin-right: 20px;
+    }
+    .header_nav11{
+        display: flex;
+        list-style: none;
+        padding-left: 0px;
+        margin-top: 5px;
+    }
+    .header_list11{
+    margin: 0 8px;
+    
+    
+    }
+    .header_list11,.header_list_link11
+    {
+        display: inline-block;
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+       padding: 3px;
+       
+    }
+    .header_list11:hover,.header_list_link11:hover{
+        color: rgba(255,255,255, 0.7);
+        cursor: pointer;
+    }
+    /*  */
+    .thongbao11{
+        position: absolute;
+      border: 1px solid silver;
+        width: 180px;
+        right: 0;
+        margin-top: 10px;
+        cursor: default;
+        user-select: none;
+        background-color: aliceblue;
+        transform-origin: top left;
+        animation: hieuungthongbao ease-in 0.27s;
+        display: none;
+       
+    }
+    .thongbao11::before{
+        content: "";
+        border: 20px solid;
+        border-color: transparent transparent white transparent;
+        position: absolute;
+        right: 10px;
+        top: -30px;
+    }
+    .thongbao11::after{
+        content: "";
+        display: block;
+        position: absolute;
+        left: 42px;
+        width: 100px;
+        top: -20px;
+        height: 20px;
+        
+    }
+    @keyframes hieuungthongbao {
+        from{
+            opacity: (0);
+         transform: scale(0);   
+        }
+       to{
+        opacity: (1);
+            transform: scale(1);   
+           }
+    }
+    .headerthongbao11{
+        height: 40px;
+        background-color: white;
+    }
+    .headerthongbao11 h3{
+        color: rgb(172, 155, 155);
+        margin: 0 0 0 12px;
+        font-weight: 400;
+        font-size: 20px ;
+        line-height: 40px;
+        
+    }
+    .thongbaosanpham11{
+        padding-left: 0;
+    }
+    .thongbaoimg11{
+        width: 49px;
+        object-fit: contain;
+    }
+    .thongbaoitem11,.thongbaolink11{
+        display: flex;
+    }
+    .thongbaoitem11:hover{
+        background-color: #cac4c3;
+    }
+    .thongbaolink11{
+        padding: 12px;
+        width: 100%;
+        text-decoration: none;
+        
+    
+    }
+    .hoverthongbao11{
+        background-color:rgba(216, 74, 46, 0.130) ;
+    }
+    .thongbaolist11{
+        margin-left: 12px;
+    }
+    .thongbaonoidung11{
+        display: block;
+        font-size: 17px;
+        color: black;
+        font-weight: 400;
+        line-height: 10px;
+    }
+    
+    
+    .footerxemtatca11{
+       display: flex; 
+    }
+     
+    
+    .hoverhieuung11:hover .thongbao11 {
+        display: block}
+        .imgbocuc{
+            border-radius: 20px;
+            margin-top: 120px;
+            margin-left: 60px;
+        }
+.main_bocuc1{
+    display: flex;
+    background-color: #eeeeee;
+    height: 640px;
+}
+.ndbocuc1{
+    margin-top: 200px;
+    margin-left: 30px;
+}
+.main_bocuc2{
+    background-color: rgb(250, 216, 216);
+    height: 300px;
+    
+}
+.ndtieude1{
+    font-size: 35px;
+    margin: 0;
+    
+}
+.tieude1_ndp1{
+    font-size: 23px;
+}
+.h2tieude2{
+    margin: 0;
+    margin-left: 10px;
+    align-content: center;
+    font-size:28px;
+    
+}
+/* Footer */
+.footer_nd{
+    background-color: rgb(39, 1, 37);
+    height: 200px;
+}
+.ndp2{
+    font-size: 20px;
+}
+.kienthuctoan6{
+    width: 1000px;
+    height: 100%;
+    border-radius: 10px;
+    border: 2px solid rgb(241, 170, 170);
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.mucluctoan6{
+    border: 2px solid rgb(223, 144, 144);
+    height: 900px;
+    width: 300px;
+    border-radius: 6px;
+    margin-top: 10px;
+    
+}
+.main_toan6{
+    display: flex;
+    justify-content: space-between;
+}
+.main{
+    background-color: #eeeeee;
+}
+.h2tieudetoan6{
+    margin-left: 20px;
+}
+.litieudetoan6, .ptieutoan6,
+.chuthichptoan6 {
+    font-size: 20px;
+    margin-right: 12px;
+}
+.imgtieudetoan6{
+    border-radius: 10px;
+    
+}
+.imgtdtoan6{
+    display:flex;
+    justify-content: center;
+}
+.tdsach_ml_ctst{
+    background-color:  rgb(236, 78, 80);   
+    height: 38px;
+    width: 100%;
+  
+}
+.tdsach_ml_ctst_h2 {
+    margin: 0px;
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 7px;
+    
+    font-size: 23px;
+}
+.ul_ml_toan6_bai3{
+    list-style: none;
+}
+.h3_spmltoan6bai3_sp,.p_spmltoan6bai3_sp {
+    margin: 0px;
+    
+}
+.ul_ml_toan6_bai3{
+    padding: 0px;
+
+    
+}
+.p_spmltoan6bai3_sp{
+    font-size: 15px;
+    color: #866963;
+    margin: 3px;
+}
+.mltoan6bai3{
+    height: 50px;
+    width: 100%;
+    background-color: #cfc9c8;
+}
+.kttoan6bai1{
+    border-top: 6px solid black;
+    margin-top: 10px;
+
+}
+.mucluc_toan6{
+    height: 862px;
+    width: 100%;
+    background-color: #cfc9c8;
+}
+.ul_mucluc{
+    margin: 0px;
+    padding-left: 20px;
+    
+    position: relative;
+    top: 10px;
+    list-style: none;
+}
+.tieude_mucluc{
+    font-size: 18px;
+    color: black;
+  
+}
+.mota_mucluc{
+    font-size: 12px;
+    color: #7e635e;
+   
+    
+}
+.ul_mucluc {
+    height: 80px;
+    padding-left:0px;
+    
+}
+.mucluc_list{
+    margin-left: 5px;
+}
+.ul_mucluc .mucluc_li:hover{
+    background-color: #fdb9aa;
+    height: 60px;
+    width:100%;
+}
+.kttoanp{
+    font-size:25px;
+    margin-left: 15px;
+}
+.tdkttoanh2 {
+    text-align: center;
+}
+.tdkttoanh2bailambailam{
+    margin-left: 15px;
+}
+.inputkq{
+    height:30px;
+    width:150px;
+    margin:10px;
+    font-size: 20px;
+    border-radius: 10px;
+    
+}
+.kiemtra{
+    display:flex
+}
+.buttonkt{
+    width:100px;
+    background-color: #e7ba24;
+    height:40px;
+    margin:10px;
+}
+.buttonkt:hover{
+    background-color:rgb(225 97 71)
+}
+.button1:hover {
+    background: url(http://3.bp.blogspot.com/-CNjR4fuFETQ/U7o6LQdLKZI/AAAAAAAAQAA/QqZYl1e7hCM/s1600/but-img_in.png) repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+    color: #2b58dd;
+    border: 1px solid #777;
+    background-color: #e7ba24;
+}
+
+.button1 {
+    background: url(http://4.bp.blogspot.com/--m8g85_fHqY/U7o6LfwyLGI/AAAAAAAAP_8/fQZ4gvjcEFs/s1600/but-im_gout.png) repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #e06363;
+    color: #fff;
+    cursor: pointer;
+    font-family: arial, serif;
+    font-size: 22px;
+    font-weight: bold;
+    height: 40px;
+    width:100px;
+    margin: 0 0 10px;
+    padding: 3px 10px 0;}
+#demo{
+    font-size: 20px;
+}
+.ndtieude2{
+    height:400px;
+    width:600px;
+    align-self:center; 
+    margin-left: 375px;
+   
+}
+.ndp2{
+    font-size: 24px;
+    margin-top: 20px;
+}
